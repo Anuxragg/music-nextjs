@@ -1,5 +1,6 @@
 import Herosection from "./components/ui/Herosection";
 import FeaturedCourses from "./components/ui/FeaturedCourses";
+import WhychooseUs from "./components/WhychooseUs";
 
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
    <h1 className="text-2xl text-center"></h1>
    <Herosection/>
    <FeaturedCourses/>
+   <WhychooseUs/>
    </main>
   );
 }
