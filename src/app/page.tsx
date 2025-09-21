@@ -1,6 +1,7 @@
 import Herosection from "./components/ui/Herosection";
 import FeaturedCourses from "./components/ui/FeaturedCourses";
 import WhychooseUs from "./components/WhychooseUs";
+import MusicSchoolTestimonial from "./components/TestimonialCards";
 
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
    <Herosection/>
    <FeaturedCourses/>
    <WhychooseUs/>
+   <MusicSchoolTestimonial/>
    </main>
   );
 }
